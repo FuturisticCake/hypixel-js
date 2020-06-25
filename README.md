@@ -69,7 +69,7 @@ client.getFriends(playerUuidOrUsername, (err, friends) => { ... });
 ```
 #### Get Session
 ```javascript
-client.getSession(playerUuidOrUsername, (err, sessionId) => { ... });
+client.getStatus(playerUuid, (err, sessionId) => { ... });
 ```
 #### Get Player Info
 ```javascript
